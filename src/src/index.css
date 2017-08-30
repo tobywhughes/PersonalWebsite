@@ -1,12 +1,15 @@
 body {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    background-color: #f5f1e3;
+    background-color: #ffffe9;
 }
 
 p {
-    color: #050505;
-    font-size: 40px;
-    text-align: center;
+    color: #00af00;
+    background-color: #050505;
+    margin-left: 15%;
+    padding: 10px 10px 10px 10px;
+    width: 70%;
+    font-size: 20px;
     font-family: 'VT323', monospace;
 }
