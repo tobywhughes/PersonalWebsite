@@ -8,7 +8,9 @@ p {
     color: #00af00;
     background-color: #050505;
     margin-left: 15%;
+    margin-top: 0px;
     padding: 10px 10px 10px 10px;
+    margin-bottom:0;
     width: 70%;
     font-size: 20px;
     font-family: 'VT323', monospace;

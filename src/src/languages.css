@@ -1,0 +1,96 @@
+.languages > div {
+    display: inline-block;
+    text-align: center;
+}
+
+.imagediv {
+    width: 9%;
+}
+
+#textdiv {
+    width: 82%;
+    vertical-align: top;
+}
+
+#textdiv > h1 {
+    margin-top:11px;
+    margin-bottom: 0px;
+    font-size: 1.95em;
+}
+
+
+img {
+    position: relative;
+}
+
+.languages {
+    margin-left: 15%;
+    width: 70%;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Russo One', sans-serif;
+}
+
+/*C++*/
+
+.JavaScriptImage {
+    height: 56px;
+    top: 2px;
+}
+
+
+#JavaScript {
+    background-color: #F5CF2B;
+    color: #FFFFFF;
+}
+
+/*C++*/
+
+.CPPImage {
+    height: 56px;
+    top: 2px;
+}
+
+
+#CPP {
+    background-color: #5894D2;
+    color: #FFFFFF;
+}
+
+/*C#*/
+
+.CSharpImage {
+    height: 56px;
+    top: 2px;
+}
+
+
+#CSharp {
+    background-color: #B1A1F7;
+    color: #FFFFFF;
+}
+
+/*Rust*/
+
+.RustImage {
+    height: 50px;
+    top: 5px;
+}
+
+
+#Rust {
+    background-color: #F59649;
+    color: #FFFFFF;
+}
+
+/*Python*/
+
+.PythonImage {
+    height: 70px;
+    top: -5px;
+}
+
+#Python {
+    background-color: #4C9CF0;
+    color: white;
+}
