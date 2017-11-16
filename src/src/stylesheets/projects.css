@@ -36,19 +36,21 @@
 
 #leftblock {
     padding-right: 7px;
-    width: 46%;
+    width: 350px;
 
     padding-left: 10px
 }
 
 #namediv {
     height:50%;
+    width: 350px;
     text-align: center;
 }
 
 #namediv > h1 {
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 100%;
     font-size: 1.75rem;
 }
 
