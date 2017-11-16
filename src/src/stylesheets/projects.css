@@ -34,12 +34,19 @@
     background-color: #99D06F;
 }
 
+
+
 #leftblock {
     padding-right: 7px;
     width: 350px;
-
     padding-left: 10px
 }
+
+#root> div > .Projects #leftblock 
+{
+    width: auto; min-width: 350px;
+}
+
 
 #namediv {
     height:50%;
