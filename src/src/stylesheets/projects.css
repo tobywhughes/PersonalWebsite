@@ -1,0 +1,80 @@
+.Projects {
+    margin-left: 15%;
+    width: 70%;
+    height: 80px;
+    padding: 0px 20px 0px 0px;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-flex;
+    color:#ffffe9;
+}
+
+#SmartPrizePool {
+    background-color: #C10000;
+}
+
+#SmartPrizePool > #leftblock{
+    background-color: #E27581;
+}
+
+#RustBoy {
+    background-color: #1700BD;
+}
+
+#RustBoy > #leftblock{
+    background-color: #73BAE7;
+}
+
+#PieCoin {
+    background-color:#00712B
+}
+
+#PieCoin > #leftblock{
+    background-color: #99D06F;
+}
+
+#leftblock {
+    padding-right: 7px;
+    width: 46%;
+
+    padding-left: 10px
+}
+
+#namediv {
+    height:50%;
+    text-align: center;
+}
+
+#namediv > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.75rem;
+}
+
+#linkdiv {
+    height:50%;
+    text-align: center;
+}
+
+#linkdiv > a {
+    font-size: 1.75rem;
+    color: #ffffe9;
+}
+
+#linkdiv > a:hover{
+    color: black;
+}
+
+#descriptiondiv {
+    padding-left: 7px;
+    display: table;
+    height: 100%;
+}
+
+#descriptiondiv > h1 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1em;
+    margin: 0px;
+}

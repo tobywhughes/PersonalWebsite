@@ -40,8 +40,8 @@ img {
 
 
 #JavaScript {
-    background-color: #F5CF2B;
-    color: #FFFFFF;
+    background-color: #7E812C;
+    color: #ffffe9;
 }
 
 /*C++*/
@@ -53,8 +53,8 @@ img {
 
 
 #CPP {
-    background-color: #5894D2;
-    color: #FFFFFF;
+    background-color: #2B455F;
+    color: #ffffe9;
 }
 
 /*C#*/
@@ -66,8 +66,8 @@ img {
 
 
 #CSharp {
-    background-color: #B1A1F7;
-    color: #FFFFFF;
+    background-color: #645898;
+    color: #ffffe9;
 }
 
 /*Rust*/
@@ -79,8 +79,8 @@ img {
 
 
 #Rust {
-    background-color: #F59649;
-    color: #FFFFFF;
+    background-color: #C75800;
+    color: #ffffe9;
 }
 
 /*Python*/
@@ -91,6 +91,6 @@ img {
 }
 
 #Python {
-    background-color: #4C9CF0;
-    color: white;
+    background-color: #043160;
+    color: #ffffe9;
 }

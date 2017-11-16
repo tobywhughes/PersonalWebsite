@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './languages.css'
+import '../stylesheets/languages.css'
 
 class Languages extends React.Component{
     constructor(props){

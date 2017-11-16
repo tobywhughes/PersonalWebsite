@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './frameworks.css'
+import '../stylesheets/frameworks.css'
 
 class Frameworks extends React.Component{
     constructor(props){

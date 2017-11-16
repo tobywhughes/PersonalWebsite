@@ -1,0 +1,39 @@
+.SocialMedia {
+    margin-left: 15%;
+    width: 70%;
+    height: 25px;
+    padding: 0px 20px 0px 0px;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#ffffe9;
+    text-align: center;
+    display: table;
+}
+
+.SocialMedia > a {
+    width: 100%;
+    color: #ffffe9;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#GitHub {
+    background-color: #595858;
+}
+#LinkedIn {
+    background-color: #2B0E54;
+}
+#Medium {
+    background-color: #072004;
+}
+#Twitter {
+    background-color: #092E36;
+}
+#Gitter {
+    background-color: #320524;
+}
+#StackOverflow {
+    background-color: #3C2909;
+}

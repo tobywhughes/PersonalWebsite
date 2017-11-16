@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header';
-import Languages from './languages';
-import Frameworks from './frameworks';
+import Header from './scripts/header';
+import Languages from './scripts/languages';
+import Frameworks from './scripts/frameworks';
+import Projects from './scripts/projects';
+import SocialMedia from './scripts/socialmedia';
 import './index.css'
 import pyimage from './images/python.png'
 import rustimage from './images/rust.png'
@@ -19,23 +21,16 @@ import pyqtimage from './images/pyqt.png'
 const App = 
 (   <div>
         <Header />
-        <p>&nbsp;__________<br />
-&lt; Welcome! &gt;<br/> 
- &nbsp;----------<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \ &nbsp;  ^__^<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  \&nbsp;  (oo)\_______<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     (__)\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)\/\<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||----w |<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||<br />
-       <br />&gt;&gt; cat /usr/Toby/Home/Documents/Introduction.txt
+        <p>&gt;&gt; cat /usr/Toby/Home/Documents/Introduction.txt
        <br /><br />########   Hi there!   ########
-       <br />My name is Tobias Hughes and I am a developer. Of course, that doesn't really tell you
-             much about me. But it's probably a good starting point. If I had to give myself a quick summary,
-             I would describe myself as somebody who likes to explore unconventional concepts. For example,
-             not many undergraduates can say that they participate in the Operating System development community.
-             I am also interested in partcipating in the software community as well. This can be seen by my
-             involvement in the open source community, speaking engagements at developer events, and lending support
-             on help forums such as Stack Overflow and reddit.
+       <br />My name is Tobias Hughes and I am a Software Engineer. I like to use that label to describe myself because
+       I see programming as much more than just stringing lines of code together. It is about architecting software that not only runs, but runs well.
+       I care about how readability, scalability, and if I'm taking advantage of current technologies.<br/><br/>
+       In my own projects, I enjoy working with the blockchain. 
+       I believe that the blockchain is an exciting new technology that has large implications in cryptography and decentralization.
+       I also enjoy creating emulators and finding exciting new languages and frameworks. In fact, I'm currently combining those two
+       interests by writing a Game Boy emulator in Rust! 
+       
         <br /><br /> &gt;&gt; ./Languages <br/><br/>
         PRINTING LANGUAGES...      
         </p>
@@ -65,6 +60,27 @@ const App =
         INVALID INPUT. PLEASE ENTER [Y] OR [N].<br/><br/>
         &gt;&gt; y<br/><br/>
         PRINTING PROJECT DETAILS...
+        </p>
+        <Projects name="SmartPrizePool" tag="SmartPrizePool" link="https://github.com/tobywhughes/SmartPrizePool" description="Using Ethereum to make prize pools how they should be - decentralized and secure. Technologies used include Solidity, Truffle, and TestRPC."/>
+        <Projects name="RustBoy" tag="RustBoy" link="https://github.com/tobywhughes/RustBoy" description="Game Boy emulator written entirely in Rust. Uses Piston Graphics framework for 2D Graphics. Written using Test-Driven Development,"/>
+        <Projects name="PieCoin" tag="PieCoin" link="https://github.com/tobywhughes/PieCoin" description="Blockchain mining system intended to be turned into full cryptocurrency. Intended to teach students about blockchain technology and cryptography. Written entirely in Rust."/>
+        <p>
+        More projects can be found at: <a className="console-link" href="https://github.com/tobywhughes">github.com/tobywhughes/</a><br/><br/>
+        &gt;&gt; ./SocialMedia <br/><br/>
+        PRINTING SOCIAL MEDIA...
+        </p>
+        <SocialMedia name="GitHub" tag="GitHub" link="https://github.com/tobywhughes"/>
+        <SocialMedia name="LinkedIn" tag="LinkedIn" link="https://www.linkedin.com/in/tobiaswhughes/"/>
+        <SocialMedia name="Medium" tag="Medium" link="https://medium.com/@tobywhughes"/>
+        <SocialMedia name="Twitter" tag="Twitter" link="https://twitter.com/tobywhughes"/>
+        <SocialMedia name="Gitter" tag="Gitter" link="https://gitter.im/tobywhughes"/>
+        <SocialMedia name="Stack Overflow" tag="StackOverflow" link="https://stackoverflow.com/users/4335496/toby-hughes?tab=profile"/>
+        <p><br/>
+        &gt;&gt; ./AboutThisSite <br/><br/>
+        This is the first version of my personal website. I plan on expanding it a bit more in the future. The end goal is
+        for it to actually emulate a basic console, but in the short term, I just want to add animations as you scroll down the site.
+        If you have any suggestions, send them over to the github repo at <a className="console-link" href="https://github.com/tobywhughes/PersonalWebsite">github.com/tobywhughes/PersonalWebsite</a>. If you need to reach me, the quickest way would be LinkedIn. 
+        If that doesn't work for you, twitter is your second best bet. If you prefer email, I can be reached at: tobywhughes@gmail.com.
         </p>
     </div>
 );
