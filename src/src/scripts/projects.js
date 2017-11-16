@@ -22,8 +22,10 @@ class Projects extends React.Component{
                         <a href={this.state.link}>GITHUB LINK</a>
                     </div>
                     </div>
+                    <div>
                     <div id="descriptiondiv">
                         <h1 >{this.state.description}</h1>
+                    </div>
                     </div>
                 </div>;
     }
