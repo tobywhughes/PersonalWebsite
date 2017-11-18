@@ -1,7 +1,7 @@
 .SocialMedia {
     margin-left: 15%;
     width: 70%;
-    height: 25px;
+    height: 40px;
     padding: 0px 20px 0px 0px;
     font-family: 'Russo One', sans-serif;
     margin-top: 0px;
@@ -9,6 +9,8 @@
     color:#ffffe9;
     text-align: center;
     display: table;
+    position: relative;
+    left: -10px;
 }
 
 .SocialMedia > a {
@@ -17,6 +19,36 @@
     text-decoration: none;
     display: table-cell;
     vertical-align: middle;
+    position: relative;
+    left: 10px;
+}
+
+@media only screen and (min-width: 850px){
+    .SocialMedia {
+        margin-left: 15%;
+        width: 70%;
+        height: 25px;
+        padding: 0px 20px 0px 0px;
+        font-family: 'Russo One', sans-serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color:#ffffe9;
+        text-align: center;
+        display: table;
+        position: relative;
+        left: -10px;
+    }
+
+
+    .SocialMedia > a {
+        width: 100%;
+        color: #ffffe9;
+        text-decoration: none;
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        left: 10px;
+    }
 }
 
 #GitHub {

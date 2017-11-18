@@ -6,8 +6,10 @@
     font-family: 'Russo One', sans-serif;
     margin-top: 0px;
     margin-bottom: 0px;
-    display: inline-flex;
+    display: inline-table;
     color:#ffffe9;
+    position: relative;
+    left: -10px;
 }
 
 #SmartPrizePool {
@@ -34,51 +36,47 @@
     background-color: #99D06F;
 }
 
-
-
 #leftblock {
-    padding-right: 7px;
-    width: 350px;
-    padding-left: 10px
+    width: 100%;
+    padding-right: 20px;
 }
-
-#root> div > .Projects #leftblock 
-{
-    width: auto; min-width: 350px;
-}
-
 
 #namediv {
+    width: 100%;
     height:50%;
-    width: 350px;
     text-align: center;
+    position: relative;
+    left: 10px;
 }
 
 #namediv > h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     width: 100%;
-    font-size: 1.75rem;
+    font-size: 1.1rem;
+    
 }
 
 #linkdiv {
     height:50%;
     text-align: center;
+    position: relative;
+    left: 10px;
 }
 
 #linkdiv > a {
-    font-size: 1.75rem;
-    color: #ffffe9;
+    font-size: 1.1rem;
+    color: #232321;
 }
 
 #linkdiv > a:hover{
-    color: black;
+    color: #232321;
 }
 
 #descriptiondiv {
     padding-left: 7px;
     display: table;
-    height: 100%;
+    height: auto;
 }
 
 #descriptiondiv > h1 {
@@ -86,4 +84,82 @@
     vertical-align: middle;
     font-size: 1em;
     margin: 0px;
+}
+
+@media only screen and (min-width: 850px){
+
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+   }
+    .Projects {
+        margin-left: 15%;
+        width: 70%;
+        min-height: 80px;
+        height: auto;
+        padding: 0px 20px 0px 0px;
+        font-family: 'Russo One', sans-serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline-flex;
+        color:#ffffe9;
+        position: relative;
+        left: -10px;
+    }
+
+    #root> div > .Projects
+    {
+        height: 80px;
+    }
+
+    #leftblock {
+        padding-right: 7px;
+        width: 350px;
+        padding-left: 10px;
+        height: auto;
+    }
+
+    #root> div > .Projects #leftblock 
+    {
+        width: auto; min-width: 350px;
+    }
+
+    #namediv {
+        height:50%;
+        width: 350px;
+        text-align: center;
+    }
+
+    #namediv > h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        font-size: 1.75rem;
+    }
+
+    #linkdiv {
+        height:50%;
+        text-align: center;
+    }
+
+    #linkdiv > a {
+        font-size: 1.75rem;
+        color: #ffffe9;
+    }
+
+    #linkdiv > a:hover{
+        color: black;
+    }
+
+    #descriptiondiv {
+        padding-left: 7px;
+        display: table;
+        height: 100%;
+    }
+
+    #descriptiondiv > h1 {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 1em;
+        margin: 0px;
+    }
 }

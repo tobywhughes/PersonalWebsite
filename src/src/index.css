@@ -12,8 +12,26 @@ p {
     padding: 10px 10px 10px 10px;
     margin-bottom:0;
     width: 70%;
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'VT323', monospace;
+    position: relative;
+    left: -10px;
+}
+
+@media only screen and (min-width: 850px){
+    p {
+        color: #00af00;
+        background-color: #050505;
+        margin-left: calc(15%);
+        margin-top: 0px;
+        padding: 10px 10px 10px 10px;
+        margin-bottom:0;
+        width: 70%;
+        font-size: 20px;
+        font-family: 'VT323', monospace;
+        position: relative;
+        left: -10px;
+    }
 }
 
 .console-link {

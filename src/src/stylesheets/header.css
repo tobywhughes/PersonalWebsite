@@ -3,12 +3,32 @@
     background-color: #050505;
     color: #00af00;
     font-family: 'VT323', monospace;
-    font-size: 3em;
+    font-size: 1.40em;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 15%;
     width: 70%;
     padding-left: 10px;
     padding-right: 10px;
-    
+    position: relative;
+    left: -10px;
+}
+
+
+@media only screen and (min-width: 850px){
+    .Header-Title {
+        text-align: center;
+        background-color: #050505;
+        color: #00af00;
+        font-family: 'VT323', monospace;
+        font-size: 3em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 15%;
+        width: 70%;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        left: -10px;
+    }
 }

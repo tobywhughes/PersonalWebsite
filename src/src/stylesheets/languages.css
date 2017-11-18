@@ -1,10 +1,22 @@
 .languages > div {
     display: inline-block;
     text-align: center;
+    
 }
 
 .imagediv {
     width: 9%;
+}
+
+.imagediv > img 
+{
+    display: none;
+}
+
+@media only screen and (min-width: 850px){
+    .imagediv > img {
+        display: inline-block;
+    }
 }
 
 #textdiv {
@@ -29,6 +41,8 @@ img {
     height: 60px;
     padding: 0px 10px 0px 10px;
     font-family: 'Russo One', sans-serif;
+    position: relative;
+    left: -10px;
 }
 
 /*C++*/
